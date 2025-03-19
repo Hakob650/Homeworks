@@ -10,7 +10,7 @@ int main() {
         int temp = a;
         a = b;
         b = temp;
-    }printf("Numbers divisible by 5 between %d and %d:\n", a, b);
+    }
     c = a; 
     do {
         if (c % 5 == 0) {
