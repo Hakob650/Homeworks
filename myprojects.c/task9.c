@@ -8,15 +8,15 @@ int main() {
     if (num < 0) {
         num = -num;
     }if (num == 0) {
-        printf("0\n");
+      printf("0/n");
     } else {
-        int digits[10], i = 0;
+        int digits1, i = 0;
        while (num != 0) {
-          digits[i] = num % 10;
+          digits1 = num % 10;
           num/= 10;
           i++;
         } for (int j = i - 1; j >= 0; j--) {
-            printf("%d ", digits[j]);
+            printf("%d ", digits2);
         }
         } return 0;
         }
