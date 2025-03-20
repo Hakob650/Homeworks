@@ -8,7 +8,7 @@ int main() {
     if (num < 0) {
         num = -num;
     } for (; num != 0; num /= 10) {
-        int digit = num % 10;  // Get the last digit
+        int digit = num % 10; 
         reversed = reversed * 10 + digit;
     } if (original_num < 0) {
         reversed = -reversed;
